@@ -1,0 +1,296 @@
+@font-face {
+    font-family: bebas;
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(../assets/fonts/RubikVinyl-Regular.ttf);
+}
+
+@font-face {
+    font-family: blinker;
+    src: url(../assets/fonts/Blinker-Bold.ttf);
+}
+
+/* * = selector universal para reseteo de estilos por default del html*/
+
+margin: 0;
+
+    {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HASTA ACA RESET*/
+
+.carousel_slide {
+    size-adjust: 50px;
+    item size-adjust: 50px;
+
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+header {
+    background-image: url(../assets/fridat.jpg);
+    font-family: blinker;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 110px;
+    font-size: 30px;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+
+}
+
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+.contenidoindex {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    gap: 5px;
+    padding: 10px;
+}
+
+.hero__contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+
+.hero {
+    font-family: blinker;
+    font-size: 30px;
+    color: rgb(58, 58, 58);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: beige;
+}
+
+.hero__titulo {
+    font-size: 50px;
+    position: relative;
+}
+
+.second-color {
+    color: #59CEE6;
+}
+
+.btn {
+    color: rgb(235, 235, 235);
+    background-color: #59CEE6;
+    padding: 1px;
+    width: 200px;
+    border-radius: 15px;
+    font-family: blinker;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.carouselExampleCaptions {
+    display: flex;
+    align-items: center;
+}
+    
+
+header img {
+    display: flex;
+    width: 11%;
+    gap: 10px;
+    padding: 20px;
+    object-position: center;
+}
+
+.productos {
+    font-family: blinker;
+    font-size: 30px;
+    display: flex;
+    object-position: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: rgb(238, 232, 144);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;    
+}
+
+
+.card {
+
+    background-color: rgb(138, 133, 133);
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    width: 90%;
+    border: 5px solid darksalmon;
+}
+
+
+h1 {
+background-color: none;
+font-family: blinker;
+text-align: center;
+padding: 25px;
+
+}
+
+h2 {
+    background-color: none;
+    font-family: blinker;
+    text-align: center;
+    padding: 25px;
+}
+
+.card_card--2 {
+    padding: 20px;
+}
+
+.card__body {
+    text-align: center;
+    text-size-adjust: 25px;
+    padding: 10px;
+}
+
+.portada {
+    background-color: rgb(254, 222, 106);
+    font-size: 25px;
+    font-family: blinker;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descfooter {
+    display: flex;
+    align-items: center;
+    
+}
+
+footer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 25px;
+    font-family: blinker;
+    background-color: rgb(0, 0, 0);
+    background-position: left bottom;
+    position: center;
+    background-size: 100%;
+    min-height: 1px;
+    padding: 10px;
+}
+
+.contacto {
+    align-items: center;
+    text-size-adjust: 150px;
+    padding left: 200px;
+    width: 100%;
+}
+
+.form {
+    background: rgb(240, 231, 231);
+    color: rgb(141, 138, 138);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.form__content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: rubik;
+    align-items: center;
+}
+
+
+
+.form__content--check{
+    display: flex;
+    font-family: bebas;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.form__btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn--form{
+    background-color: rgb(149, 0, 0);
+}
+
+
+
+
+
+    .descprod {
+        font-family: ;
+    }
