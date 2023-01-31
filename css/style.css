@@ -375,24 +375,86 @@ footer {
     justify-content: space-between;
 }
 
-@media only screen and (min-width:300px) and (max-width:1200px) {
 
+@media only screen and (min-width:300px) and (max-width:700px) {
+
+    header img {
+        display: flex;
+        width: 140px;
+        gap: 7px;
+        padding: 17px;
+        object-position: center;
+    }
+    
     header {
-        background-image: url(../assets/fridat.jpg);
-        font-family: blinker;
-        justify-content: space-between;
-        align-items: flex-end;
+
         height: 120px;
         font-size: 18px;
+        object-position: center;
         width: 100%;
-        z-index: 15;
-        top: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        /*position: sticky;*/
+        height: 70%;
+
     }
 
+   }
+
+@media only screen and (min-width:901px) and (max-width:1200px) {
+
+    .cardprod1 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+
+    }
+
+    .cardprod2 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+
+    }
+
+    .cardprod3 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .cardprod4 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .cardprod5 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .cardprod6 {
+
+        font-size: 20px;
+        background-color: beige;
+        width: 100%;
+        padding: 1px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:900px) {
 
     .cardprod1 {
 
@@ -448,7 +510,6 @@ footer {
         font-size: 10px;
     }
 }
-
 .form__btn {
     display: flex;
     justify-content: flex-end;
