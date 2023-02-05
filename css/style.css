@@ -134,12 +134,12 @@ nav ul {
 }
 
 .second-color {
-    color: #59CEE6;
+    color: #d03a3a;
 }
 
 .btn {
     color: rgb(235, 235, 235);
-    background-color: #59CEE6;
+    background-color: #d03a3a;
     padding: 1px;
     width: 200px;
     border-radius: 15px;
@@ -291,7 +291,8 @@ h2 {
 }
 
 .portada {
-    background-color: #59CEE6 font-family: blinker;
+    background-color: #59CEE6 
+    font-family: blinker;
     display: flex;
     justify-content: space-between;
     gap: 25px;
@@ -396,7 +397,6 @@ footer {
 
     }
 
-   }
 
 @media only screen and (min-width:901px) and (max-width:1200px) {
 
