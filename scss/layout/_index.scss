@@ -1,0 +1,59 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+header {
+    background-image: url(../assets/fridat.jpg);
+    font-family: blinker;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 110px;
+    font-size: 30px;
+    width: 100%;
+    z-index: 15;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*position: sticky;*/
+
+}
+
+header img {
+    display: flex;
+    width: 170px;
+    gap: 10px;
+    padding: 20px;
+    object-position: center;
+}
+
+nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+
+
+}
