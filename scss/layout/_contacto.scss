@@ -6,15 +6,12 @@
     font-family: blinker;
 }
 
-.contacto {
-    background-image: url(/assets/perropedido.jpg);
-    align-items: center;
-    width: 100%;
-    z-index: 105;
-}
 
 .form {
-    background-color: rgba(255, 255, 255, 0.575);
+    background-image: url(../assets/perropedido.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: rgb(0, 0, 0);
     font-size: 25px;
     height: 100%;
