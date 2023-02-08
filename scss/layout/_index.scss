@@ -57,3 +57,182 @@ nav ul {
 
 
 }
+
+.contenidoindex {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    gap: 5px;
+    padding: 10px;
+}
+
+
+
+
+.hero__contenedor {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+
+.hero {
+    font-family: blinker;
+    color: rgb(58, 58, 58);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: beige;
+}
+
+.hero__titulo {
+    font-size: 50px;
+    position: relative;
+}
+
+.second-color {
+    color: #d03a3a;
+}
+
+.btn {
+    color: rgb(235, 235, 235);
+    background-color: #d03a3a;
+    padding: 1px;
+    width: 200px;
+    border-radius: 15px;
+    font-family: blinker;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.carouselExampleCaptions {
+    display: flex;
+    align-items: center;
+}
+
+.carousel_slide {
+    height: 70%;
+}
+
+img {
+    width: 60%;
+    justify-content: center;
+}
+
+
+.card {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    border: 5px solid rgb(122, 216, 233);
+
+}
+
+h1 {
+    font-family: blinker;
+    text-align: center;
+    padding: 25px;
+
+}
+
+h2 {
+    background-color: none;
+    font-family: blinker;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+.card__body p {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.portada {
+    background-color: #59CEE6; 
+    font-family: blinker;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 50px;
+}
+
+@media only screen and (min-width:501px) and (max-width:1000px) {
+    .card__body p {
+        text-align: center;
+        padding: 30px;
+        font-size: 20px;
+    }
+    
+    .portada {
+        background-color: #59CEE6; 
+        font-family: blinker;
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+    .card__body p {
+        text-align: center;
+        padding: 30px;
+        font-size: 15px;
+    }
+    
+    .portada {
+        background-color: #59CEE6; 
+        font-family: blinker;
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:700px) {
+
+    header img {
+        display: flex;
+        width: 140px;
+        gap: 7px;
+        padding: 17px;
+        object-position: center;
+    }
+    
+    header {
+
+        height: 120px;
+        font-size: 18px;
+        object-position: center;
+        width: 100%;
+        height: 70%;
+
+    }
+
+     }
+
+     .contenidoindex {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    gap: 5px;
+    padding: 10px;
+}
+
+
+

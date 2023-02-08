@@ -1,3 +1,29 @@
+.descfooter {
+    display: flex;
+    align-items: center;
+
+}
+
+.mapa {
+
+    padding: 30px;
+}
+
+footer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: bebas;
+    background-color: rgb(0, 0, 0);
+    background-position: left bottom;
+    position: center;
+    background-size: 100%;
+    min-height: 1px;
+    padding: 10px;
+    gap: 10px;
+}
+
 footer {
     font-size: 10px;
 }
