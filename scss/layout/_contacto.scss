@@ -2,6 +2,7 @@
 .accordion-item {
     background-color: #61c985;
     text-align: center;
+    color: antiquewhite;
     font-size: 25px;
     font-family: blinker;
 }
@@ -21,8 +22,10 @@
     border-radius: 5px;
 }
 
+.form__content textarea{
+    resize: none;
 
-
+}
 .form__content--check {
     display: flex;
     font-family: bebas;

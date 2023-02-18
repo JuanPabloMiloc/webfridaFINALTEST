@@ -1,26 +1,7 @@
-.carousel_slide {
-
-    size-adjust: 20px;
-    padding: 20px;
-
-}
-
-body {
-    margin: 0%;
-    padding: 0%;
-}
-
-html,
-body {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-}
 
 header {
     background-image: url(../assets/fridat.jpg);
     font-family: blinker;
-    justify-content: space-between;
-    align-items: flex-end;
     height: 110px;
     font-size: 30px;
     width: 100%;
@@ -34,8 +15,7 @@ header {
 }
 
 header img {
-    display: flex;
-    width: 170px;
+    width: 130px;
     gap: 10px;
     padding: 20px;
     object-position: center;
@@ -60,7 +40,65 @@ nav ul {
     display: flex;
     gap: 25px;
     padding: 30px;
-
-
 }
 
+li:hover {
+    background-color: rgba(44, 96, 190, 0.548);
+    border-radius: 5px;
+    transition: .4s;
+    padding: 5px;
+    }
+
+    .contenidoindex {
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    @media only screen and (min-width:100px) and (max-width:500px) {
+
+        header img {
+            display: flex;
+            width: 110px;
+            gap: 7px;
+            padding: 17px;
+            object-position: center;
+        }
+        
+        header {
+    
+            font-size: 18px;
+            object-position: center;
+            width: 100%;
+            position: sticky;
+    
+        }
+    
+        }
+    
+        @media only screen and (min-width:501px) and (max-width:1000px) {
+
+            header img {
+                display: flex;
+                width: 110px;
+                gap: 7px;
+                padding: 17px;
+                object-position: center;
+            }
+            
+            header {
+        
+                font-size: 22px;
+                object-position: center;
+                width: 100%;
+                position: sticky;
+        
+            }
+        
+            }
+    
+    
+    
+    
