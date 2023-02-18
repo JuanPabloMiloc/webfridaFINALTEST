@@ -40,6 +40,7 @@ nav ul {
     display: flex;
     gap: 25px;
     padding: 30px;
+
 }
 
 li:hover {
@@ -49,15 +50,9 @@ li:hover {
     padding: 5px;
     }
 
-    .contenidoindex {
-        justify-content: space-between;
-        text-align: center;
-        width: 100%;
-        gap: 5px;
-        padding: 10px;
-    }
 
-    @media only screen and (min-width:100px) and (max-width:500px) {
+@media only screen and (min-width:100px) and (max-width:500px) {
+
 
         header img {
             display: flex;
@@ -73,11 +68,17 @@ li:hover {
             object-position: center;
             width: 100%;
             position: sticky;
-    
+        }
+
+        nav ul {
+            display: block;
+            gap: 25px;
+            padding: 30px;
+        
         }
     
         }
-    
+
         @media only screen and (min-width:501px) and (max-width:1000px) {
 
             header img {
