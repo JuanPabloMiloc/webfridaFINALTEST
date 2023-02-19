@@ -29,7 +29,8 @@ img {
     gap: 10px;
     padding: 20px;
     align-items: center;
-    height: 1000px;
+    height: 100%;
+    width: 100%;
     border: 5px solid rgb(122, 216, 233);
 
 }
@@ -65,6 +66,8 @@ h2 {
     padding: 50px;
 }
 
+
+
 @media only screen and (min-width:501px) and (max-width:1000px) {
     
     .card {
@@ -74,7 +77,8 @@ h2 {
         gap: 10px;
         padding: 20px;
         align-items: center;
-        height: 1200px;
+        height: 100%;
+        width: 100%;
         border: 5px solid rgb(122, 216, 233);
     
     }
@@ -88,7 +92,7 @@ h2 {
     .portada {
         background-color: #59CEE6; 
         font-family: blinker;
-        display: flex;
+        display: block;
         justify-content: space-between;
         gap: 25px;
         padding: 50px;
@@ -105,7 +109,7 @@ h2 {
     .portada {
         background-color: #59CEE6; 
         font-family: blinker;
-        display: flex;
+        display: block;
         justify-content: space-between;
         gap: 25px;
         padding: 50px;
@@ -129,10 +133,11 @@ h2 {
     .portada {
         background-color: #59CEE6; 
         font-family: blinker;
-        display: flex;
+        display: block;
         justify-content: space-between;
         gap: 25px;
         padding: 50px;
     }
 }
+
 

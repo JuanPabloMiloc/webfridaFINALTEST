@@ -248,7 +248,8 @@ img {
   gap: 10px;
   padding: 20px;
   align-items: center;
-  height: 1000px;
+  height: 100%;
+  width: 100%;
   border: 5px solid #7ad8e9; }
 
 h1 {
@@ -282,7 +283,8 @@ h2 {
     gap: 10px;
     padding: 20px;
     align-items: center;
-    height: 1200px;
+    height: 100%;
+    width: 100%;
     border: 5px solid #7ad8e9; }
   .card__body p {
     text-align: center;
@@ -291,7 +293,7 @@ h2 {
   .portada {
     background-color: #59CEE6;
     font-family: blinker;
-    display: flex;
+    display: block;
     justify-content: space-between;
     gap: 25px;
     padding: 50px; } }
@@ -304,7 +306,7 @@ h2 {
   .portada {
     background-color: #59CEE6;
     font-family: blinker;
-    display: flex;
+    display: block;
     justify-content: space-between;
     gap: 25px;
     padding: 50px; } }
@@ -322,10 +324,13 @@ h2 {
   .portada {
     background-color: #59CEE6;
     font-family: blinker;
-    display: flex;
+    display: block;
     justify-content: space-between;
     gap: 25px;
     padding: 50px; } }
+
+.productos h2 {
+  font-size: 35px; }
 
 .cardprod1 {
   background-color: white;
@@ -385,7 +390,6 @@ h2 {
   font-family: blinker;
   background-color: white;
   font-size: 30px;
-  display: flex;
   object-position: center;
   align-items: center;
   justify-content: space-between;
@@ -403,6 +407,8 @@ h2 {
   text-align: center; }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .productos h2 {
+    font-size: 30px; }
   .cardprod1 {
     font-size: 20px;
     background-color: beige;
@@ -432,11 +438,11 @@ h2 {
     font-size: 20px;
     background-color: beige;
     width: 100%;
-    padding: 1px; }
-  footer {
-    font-size: 10px; } }
+    padding: 1px; } }
 
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (min-width: 100px) and (max-width: 900px) {
+  .productos h2 {
+    font-size: 20px; }
   .cardprod1 {
     font-size: 15px;
     background-color: beige;

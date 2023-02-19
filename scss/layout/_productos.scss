@@ -1,3 +1,7 @@
+.productos h2 {
+    font-size: 35px;
+}
+
 .cardprod1 {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -68,7 +72,6 @@
     font-family: blinker;
     background-color: rgb(255, 255, 255);
     font-size: 30px;
-    display: flex;
     object-position: center;
     align-items: center;
     justify-content: space-between;
@@ -88,6 +91,10 @@
 }
 
 @media only screen and (min-width:901px) and (max-width:1200px) {
+
+    .productos h2 {
+        font-size: 30px;
+    }
 
     .cardprod1 {
 
@@ -139,11 +146,15 @@
         padding: 1px;
     }
 
-    footer {
-        font-size: 10px;
-    }
+
 }
-@media only screen and (min-width:300px) and (max-width:900px) {
+@media only screen and (min-width:100px) and (max-width:900px) {
+
+
+    .productos h2 {
+        font-size: 20px;
+    }
+
 
     .cardprod1 {
 
