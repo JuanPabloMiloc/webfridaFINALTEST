@@ -2,6 +2,12 @@
     font-size: 35px;
 }
 
+.cardprod1 img {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
 .cardprod1 {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -146,61 +152,102 @@
         padding: 1px;
     }
 
-
 }
 @media only screen and (min-width:100px) and (max-width:900px) {
 
 
     .productos h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
+.cardprod1 img {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
 
     .cardprod1 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
 
+    }
+
+    .cardprod2 img {
+        display: flex;
+        margin: auto;
+        align-items: center;
     }
 
     .cardprod2 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
 
     }
 
+    .cardprod3 img {
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+
+
     .cardprod3 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
+    }
+
+    .cardprod4 img {
+        display: flex;
+        margin: auto;
+        align-items: center;
     }
 
     .cardprod4 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
+    }
+
+    .cardprod5 img {
+        display: flex;
+        margin: auto;
+        align-items: center;
     }
 
     .cardprod5 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
     }
 
+    .cardprod6 img {
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+
     .cardprod6 {
 
         font-size: 15px;
+        display: block;
         background-color: beige;
         width: 100%;
         padding: 1px;
