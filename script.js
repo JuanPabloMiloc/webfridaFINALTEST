@@ -21,7 +21,7 @@ function hacerCarrito(talle, cantidad) {
 
 function seleccionartalle(talle, cantidad) {
   switch (talle.toLowerCase()) 
-  
+    
   {
     case "peq":
       carrito += `Presentación de ${cantidad} kg, razas Pequeñas: ${(cantidad / 0.2).toFixed(0)} días\n`;
