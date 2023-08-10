@@ -50,7 +50,8 @@ nav {
   box-sizing: border-box; }
 
 nav a {
-  color: white; }
+  color: rgb(110, 64, 143);
+  }
 
 nav ul {
   display: flex;
@@ -58,7 +59,7 @@ nav ul {
   padding: 30px; }
 
 li:hover {
-  background-color: rgba(44, 96, 190, 0.548);
+  background-color: rgba(210, 212, 216, 0.548);
   border-radius: 5px;
   transition: .4s;
   padding: 5px; }
@@ -539,3 +540,12 @@ h2 {
   width: 60%;
   align-items: center;
   justify-content: space-between; }
+
+ .btn.btn-primary {
+font-size: 18px;
+font-family: bebas;
+color: whitesmoke;
+border-radius: 5px;
+
+  }
+

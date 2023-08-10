@@ -1,4 +1,6 @@
 
+<script src="sweetalert2.all.min.js"></script>
+
 let carrito = "";
 let nuevoOperacion = false;
 
@@ -18,6 +20,8 @@ function hacerCarrito(talle, cantidad) {
   console.log("Para el tamaño de su mascota, la ración seleccionada debería durar:");
   console.log(carrito);
 }
+
+
 
 function seleccionartalle(talle, cantidad) {
   switch (talle.toLowerCase()) 
@@ -41,5 +45,12 @@ function seleccionartalle(talle, cantidad) {
       
   }
 }
+
+Swal.fire(
+  'Good job!',
+  'You clicked the button!',
+  'success'
+)
+
 
 hacerCarrito(talle, cantidad);
