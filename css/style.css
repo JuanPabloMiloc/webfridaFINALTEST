@@ -448,7 +448,7 @@ h2 {
 
 @media only screen and (min-width: 100px) and (max-width: 900px) {
   .productos h2 {
-    font-size: 25px; }
+    font-size: 20px; }
   .cardprod1 img {
     display: flex;
     margin: auto;
@@ -548,4 +548,5 @@ color: whitesmoke;
 border-radius: 5px;
 
   }
+
 

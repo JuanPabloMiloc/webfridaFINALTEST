@@ -36,7 +36,7 @@ class Producto {
     confirmarCarrito() {
       while (true) {
         let seleccion = prompt(
-          "Ingrese el nombre del producto que desea comprar: (NUTRIQUE, BALANCED, COMPLETE, PREMIUM, HOP, BELCAN)"
+          "Para saber cuanto debe comprar, ingrese el nombre del producto que desea: (NUTRIQUE, BALANCED, COMPLETE, PREMIUM, HOP, BELCAN)"
         );
   
         let producto = this.buscarProducto(seleccion);

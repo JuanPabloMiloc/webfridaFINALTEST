@@ -1,5 +1,4 @@
 
-<script src="sweetalert2.all.min.js"></script>
 
 let carrito = "";
 let nuevoOperacion = false;
@@ -46,11 +45,6 @@ function seleccionartalle(talle, cantidad) {
   }
 }
 
-Swal.fire(
-  'Good job!',
-  'You clicked the button!',
-  'success'
-)
 
 
 hacerCarrito(talle, cantidad);
