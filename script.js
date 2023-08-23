@@ -1,5 +1,4 @@
 
-
 let carrito = "";
 let nuevoOperacion = false;
 
@@ -48,3 +47,10 @@ function seleccionartalle(talle, cantidad) {
 
 
 hacerCarrito(talle, cantidad);
+
+Swal.fire({
+  title: 'Gracias',
+  text: 'Le informaremos sobre sus inquietudes por correo.',
+  icon: 'Gracias por su consulta!',
+  confirmButtonText: 'Aceptar'
+  })

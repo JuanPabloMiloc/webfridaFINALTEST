@@ -34,7 +34,7 @@ let productos = [
     {
       id: 5,
       nombreProducto: "COMPLETE GATO",
-      descripcion: "Es bueno, es completamente excepcional",
+      descripcion: "Es bueno, completamente excepcional",
       precio: 2450,
       imagen: "../assets/productoscarrito/completegato.png"
     },
@@ -42,7 +42,7 @@ let productos = [
     {
       id: 6,
       nombreProducto: "COMPLETE PERRO",
-      descripcion: "Es bueno, es completamente excepcional",
+      descripcion: "Es bueno, completamente excepcional",
       precio: 2750,
       imagen: "../assets/productoscarrito/completeperro.png"
     },
@@ -50,7 +50,7 @@ let productos = [
     {
         id: 7,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       },
@@ -58,7 +58,7 @@ let productos = [
       {
         id: 8,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       },
@@ -66,7 +66,7 @@ let productos = [
       {
         id: 9,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       },
@@ -74,7 +74,7 @@ let productos = [
       {
         id: 10,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       },
@@ -82,7 +82,7 @@ let productos = [
       {
         id: 11,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       },
@@ -90,7 +90,7 @@ let productos = [
       {
         id: 12,
         nombreProducto: "COMPLETE PERRO",
-        descripcion: "Es bueno, es completamente excepcional",
+        descripcion: "Es bueno, completamente excepcional",
         precio: 2750,
         imagen: "../assets/productoscarrito/completeperro.png"
       }
@@ -121,21 +121,12 @@ let productos = [
           </div>
         </div>
       </div>
-    `;
+    `
+    
+    ;
 
     productCards.innerHTML += cardHTML;
 
-    const enJSON = '{"id":1,"producto":"NUTRIQUE GATO ADULTO"}'
-    const productoscarrito = JSON.parse(enJSON);
-
-    console.log(typeof enJSON);
-    console.log(typeof productoscarrito);
-    console.log(productoscarrito.producto);
-
-    const nombreProductos = JSON.parse(localStorage.getItem("productoscarrito"));
-    console.log(productos.id); 
-
-
-
-
+  
   }
+

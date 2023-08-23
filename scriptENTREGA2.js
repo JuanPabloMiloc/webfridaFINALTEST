@@ -36,13 +36,13 @@ class Producto {
     confirmarCarrito() {
       while (true) {
         let seleccion = prompt(
-          "Para saber cuanto debe comprar, ingrese el nombre del producto que desea: (NUTRIQUE, BALANCED, COMPLETE, PREMIUM, HOP, BELCAN)"
+          "Para simular el costo de su compra, ingrese el nombre del producto que desea: (NUTRIQUE, BALANCED, COMPLETE, PREMIUM, HOP, BELCAN)"
         );
   
         let producto = this.buscarProducto(seleccion);
   
         if (producto) {
-          let cantidad = parseInt(prompt("Ingrese la cantidad que desea seleccionar:"));
+          let cantidad = parseInt(prompt("Ingrese la cantidad de bolsas (3kg) que desea comprar:"));
           this.agregarItem(producto, cantidad);
         } else {
           alert("El producto seleccionado no existe. Por favor, vuelva a intentarlo.");
@@ -74,47 +74,11 @@ class Producto {
   carrito.confirmarCarrito();
   
    if (carrito.items.length > 0) {
-    if (confirm("¿Desea vaciar el carrito? Si culmino su compra indique CANCELAR")) {
+    if (confirm("Si culmino su compra indique CANCELAR")) {
       carrito.vaciarCarrito();
     }
   }
   
   carrito.calcularTotal();
   
-  let productos = [
-    {
-      id: 1,
-      nombreProducto: "Pepsi",
-      precio: 500,
-    },
-  
-    {
-      id: 2,
-      nombreProducto: "Coca Cola",
-      precio: 600,
-    },
-  
-    {
-      id: 3,
-      nombreProducto: "Sprite",
-      precio: 300,
-    },
-  
-    {
-      id: 4,
-      nombreProducto: "Seven Up",
-      precio: 450,
-    },
-  
-    {
-      id: 5,
-      nombreProducto: "Fanta",
-      precio: 450,
-    },
-  
-    {
-      id: 6,
-      nombreProducto: "Coca Zero",
-      precio: 450,
-    }
-  ]
+
